@@ -1,0 +1,41 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: rgb(206, 206, 165);
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    label {
+        font-size: 14px;
+    }
+
+    input[type="range"],
+    input[type="color"] {
+        width: auto;
+    }
+}
+
+.img-1 {
+    margin-top: 40px;
+    margin-right: 80px;
+    box-shadow: 2px 2px 20px yellow;
+}
+
+.img-2 {
+    filter: drop-shadow(2px, 2px, 20px yellow);
+}
